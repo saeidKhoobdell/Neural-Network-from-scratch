@@ -1,4 +1,4 @@
-##Neural Network for Heart Disease Prediction
+Neural Network for Heart Disease Prediction
 
 
 
