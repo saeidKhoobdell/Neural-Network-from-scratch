@@ -1,4 +1,7 @@
-Neural Network for Heart Disease Prediction
+##Neural Network for Heart Disease Prediction
+
+
+
 This repository contains a simple implementation of a neural network for heart disease prediction using Python. The neural network is implemented from scratch, and the code provides a basic understanding of forward and backward propagation.
 
 Getting Started
