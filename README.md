@@ -1,49 +1,28 @@
-Neural Network for Heart Disease Prediction
+Heart Disease Prediction Neural Network
+
+This repository contains a simple neural network implementation for heart disease prediction using Python and NumPy.
+
+Implementation :
+
+Load and preprocess the dataset.
+
+Split the data into training and testing sets.
+
+Scale the data using StandardScaler.
+
+Define a neural network class (NN) with a sigmoid activation function.
+
+Train the neural network using stochastic gradient descent (SGD).
+
+Evaluate the model on the test set and display accuracy and a confusion matrix.
 
 
 
-This repository contains a simple implementation of a neural network for heart disease prediction using Python. The neural network is implemented from scratch, and the code provides a basic understanding of forward and backward propagation.
 
-Getting Started
-To get started with the project, follow these steps:
+Author
 
-Prerequisites
-Make sure you have the following installed:
+SAeid Khoobdel
 
-Python (>=3.6)
-Jupyter Notebook (optional, for running the provided code)
-Installation
-Clone the repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/your-username/heart-disease-prediction.git
-Usage
-Open the Jupyter Notebook file (heart_disease_prediction.ipynb) using Jupyter Notebook.
 
-Run the cells one by one to see the implementation and results.
-
-Adjust hyperparameters, such as learning rate (LR) and the number of iterations (ITERATIONS), as needed.
-
-python
-Copy code
-# Hyperparameters
-LR = 0.1
-ITERATIONS = 1000
-
-# Initialize and train the neural network
-nn = NN(LR=LR, X_train=x_train_scale, y_train=y_train, X_test=x_test_scale, y_test=y_test)
-nn.train(iteration=ITERATIONS)
-Explore the results, including the training and test error plots.
-Code Structure
-heart_disease_prediction.ipynb: Jupyter Notebook file containing the code.
-heart.csv: Dataset file (make sure it's in the same directory as the notebook).
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-The code is a basic implementation for educational purposes and may not be suitable for production use.
-Feel free to explore, modify, and use this code as a starting point for your own projects. If you encounter any issues or have suggestions, please open an issue.
-
-Happy coding!
-Saeid Khoobdel
+Feel free to customize the content, and remember to replace "your-username" in the clone URL with your GitHub username.
